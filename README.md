@@ -66,7 +66,7 @@
 
 Composer is a consult‑before‑you‑act AI service that helps users perform multi‑step data and research tasks by generating a workflow, providing a free price quote, and executing the plan for a paid x402 fee. It aggregates results from multiple providers, offering pricing comparisons, diligence packs, and other AI‑driven analyses, while handling payments and delivering synthesized answers.
 
-**Areas:** AI · Research · Workflow · Pricing · Data
+**Areas:** Artificial Intelligence · Research · Workflows · Pricing · Data
 
 ## Composer on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for Composer is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agenticpaywall-com-mcp.yml](https://apis.io/servers/agenticpaywall-com/agenticpaywall-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agenticpaywall Com Agentic Access](https://apis.io/agentic-access/agenticpaywall-com/agenticpaywall-com-agentic-access/)
+- [Composer Agentic Access](https://apis.io/agentic-access/agenticpaywall-com/agenticpaywall-com-agentic-access/)
 
 #### Governance rules (1)
 
@@ -96,14 +102,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agenticpaywall Com Authentication](https://apis.io/security/agenticpaywall-com/agenticpaywall-com-authentication/)
-- [Agenticpaywall Com Domain Security](https://apis.io/security/agenticpaywall-com/agenticpaywall-com-domain-security/)
+- [Composer Authentication](https://apis.io/security/agenticpaywall-com/agenticpaywall-com-authentication/)
+- [Composer Domain Security](https://apis.io/security/agenticpaywall-com/agenticpaywall-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agenticpaywall Com Scopes](https://apis.io/scopes/agenticpaywall-com/agenticpaywall-com-scopes/)
+- [Composer Scopes](https://apis.io/scopes/agenticpaywall-com/agenticpaywall-com-scopes/)
 
 ## Where to find this API
 
@@ -115,23 +121,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 19.3** — emerging · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 13.4** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 61.7 |
+| Discoverability | 68.3 |
 | Contract quality | 0.0 |
-| Contract governance | 65.5 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 23.1 |
 | Access clarity | 0.0 |
 
-**Agent readiness 22.2** — agent-aware
+**Agent readiness 14.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -141,7 +147,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | — |
@@ -152,8 +158,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agenticpaywall-com/](https://apis.io/providers/agenticpaywall-com/).
 
